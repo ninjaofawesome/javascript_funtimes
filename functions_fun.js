@@ -36,6 +36,36 @@ function mathWhiz(base,exponent){
 // 7.invoke the function with two arguments and print it to the console log.
 console.log(mathWhiz(5, 10));
 
+// Try using some if/else statement.
+// how it works, line by line:
+// 1. Set up a function with one argument and open up a block.
+function hannahIsRad(yes) {
+// 2. compare the argument to the value set.  If it meets this parameter, do this thing.
+	if (yes <= 5)
+// 3. The anticipated result.
+		return "aww yeah!";
+// 4. If that doesn't meet the parameters in the evaluation, try the second thing.
+	else
+// 5. This is what you'd get in that case.
+		return "you could say that.";
+// 6. Close the block.
 
+}
+// 7.invoke the function with one argument and print it to the console log.
+console.log(hannahIsRad(3));
+
+
+// Make it more complex!
+function hannahIsRad(yes) {
+	if (yes <= 5 && yes < 8)
+		return "aww yeah!";
+	else if (yes <= 8 && yes < 12 )
+		return "most definitely."
+	else
+		return "you could say that.";
+
+}
+
+console.log(hannahIsRad(15));
 
 
